@@ -10,6 +10,9 @@ Ini membutuhkan library express dan mysql
 3. Install library express dan mysql
 $ npm i express mysql
 
+Install nodemon running local
+$ npm install --save-dev nodemon
+
 4. Load library ke server.js:
 const express = require("express");
 const mysql = require("mysql");
