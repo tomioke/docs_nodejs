@@ -1,0 +1,20 @@
+Tentang NVM tools kerja untuk windows untuk mengelola versi dari node.js
+
+Perintah penting:
+
+1. Install node.js dan versinya
+nvm install <node_version>
+$ nvm install 14.4.0
+nvm install 16.13.0
+
+2. Cek node yang terinstall
+$ nvm ls
+
+3. Ubah ke versi node
+nvm use <versi_node_terinstall>
+
+$ nvm use 14.4.0
+
+Result :
+   16.13.0
+  * 14.4.0 (Currently using 64-bit executable)

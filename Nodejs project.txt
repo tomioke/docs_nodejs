@@ -1,0 +1,29 @@
+Buat simple crud javascript mysql node.js
+
+1. Init package untuk pengaturan library pada directory project
+$ npm init -y
+
+2. Buat server.js untuk menampung database nantinya
+$ touch server.js
+Ini membutuhkan library express dan mysql
+
+3. Install library express dan mysql
+$ npm i express mysql
+
+4. Load library ke server.js:
+const express = require("express");
+const mysql = require("mysql");
+
+5. insial variable app
+
+6. Jalankan server dengan :
+$ node server.js
+
+7. Test buka di browser:
+di localhost:8000
+
+8. Untuk front end pakai template engine
+$ npm i ejs
+
+9. Pastikan nodemon sudah terinstall, kemudian jalankan otomatis dengan:
+$ npm start
