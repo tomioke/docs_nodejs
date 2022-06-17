@@ -10,7 +10,7 @@ nvm install 16.13.0
 2. Cek node yang terinstall
 $ nvm ls
 
-3. Ubah ke versi node
+3. Ubah ke versi node (Wajib administrator)
 nvm use <versi_node_terinstall>
 
 $ nvm use 14.4.0
